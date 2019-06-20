@@ -1,0 +1,95 @@
+.covers{
+	display: flex;
+	justify-content:  space-between;
+}
+.left-side{
+			display: flex;
+
+		}
+		.covers > .left-side > div{
+			margin-right: 20px;
+			text-transform: uppercase;
+		}
+		.var-left-side{
+			border-bottom: 2px solid transparent;
+			transition: 0.5s;	
+			height: 20px;
+
+		}
+		.var-left-side a{
+			color: white;
+			text-decoration: none;
+			transition: color 0.5s;
+		}
+		.var-left-side:hover{
+			border-bottom: 1px solid white;
+		}
+
+		.var-left-side a:hover{
+			color: pink;
+		}
+.bawah{
+	text-align: center;
+}
+
+.img-fluid img:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.btn-group .button {
+  background-color: #2b2b2b; /* Grey */
+  border: 1px solid green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+body {
+ margin: 0;
+}
+.covers {
+  padding: 25px;
+  text-align: center;
+  background: #2b2b2b;
+  color: white;
+  font-size: 18px;
+  opacity: 0.9;
+}
